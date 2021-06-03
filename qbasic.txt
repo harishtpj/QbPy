@@ -1,0 +1,3467 @@
+
+
+1)Write a program to enter your name and print it .
+
+
+CLS
+Input 'Enter you name';n$
+Print 'The name is';n$
+End
+
+
+
+
+2)Write a program to enter your name, city, country, age and print them.
+
+
+CLS
+Input " Enter the name ";N$
+Input " Enter the city";C$
+Input " Enter the country";CO$
+Input " Enter the age";A
+Print " The name is ";N$
+Print " The city is ";C$
+Print " The country is ";CO$
+Print " The age is ";A
+End 
+
+
+
+3)Write a program to find the area of rectangle.
+
+
+Cls
+Input " enter the length " ;l
+Input " enter the breadth " ;b 
+let A = l*b
+Print" the area of rectangle=" ;a
+End
+
+
+
+
+4)Write a program to find the area of the triangle.
+
+
+Cls
+Input " enter the base" ;b
+Input " enter the height" ;h 
+let T = 1/2*b*h
+Print" The area of triangle=" ;T
+End
+
+
+
+
+5)Write a program to find the area of the circle.
+
+
+Cls
+Input" Enter the radius " ;R
+Let C=22/7*R^2
+Print " The area of circle =" ;C
+End
+
+
+
+
+6)Write a program to find the circumference of the circle.
+
+
+Cls
+Input" Enter the radius " ;R
+Let Circumference=22/7*R*2
+Print " The area of circle =" ;Circumference
+End 
+
+
+
+
+7)Write a program to find the area of the square.
+
+
+Cls
+Input" Enter the number" ;n
+Let square= n^2
+Print" The area of square=" ;Square
+End
+
+
+
+
+8)Write a program to find the area of the square and cube. 
+
+
+Cls
+Input" Enter the number" ;n
+Let square= n^2
+Let Cube = n^3 
+Print" The area of square=" ;Square
+Print" The area of cube=" ; Cube
+End
+
+
+
+
+9)Write a program to find the volume of the box.
+
+
+Cls
+Input " enter the length " ;l
+Input " enter the breadth " ;b 
+Input " enter the height " ;h
+Let Volume= l*b*h
+Print" The volume of box =" ;Volume
+End 
+
+
+
+
+10)Write a program to convert the weight from kilogram to pounds.
+
+
+CLS
+Input"Enter the weight in kilogram";K
+Let P=K*2.2
+Print "The pound is ";P
+End
+
+
+
+
+11)Write a program to convert the distance from kilometer to miles.
+
+
+Cls
+Input"Enter the length in kilometer";K
+Let M= K / 1.6
+
+Print "The length in miles =";M
+End
+
+
+
+
+12)Write a program to convert the distance from miles to kilomiles.
+
+
+Cls
+Input " Enter the length in miles";M
+Let K=M*1.6
+Print" The length in kilo miles=";K
+End
+
+
+
+
+13)Write a program to enter the initial mileage(m1) and final mileage (m2) then calculate the distance traveled.
+
+
+CLS
+Input "Enter the Initial Mileage";M1
+Input "Enter the Final Mileage";M2
+Let D= M2-M1
+Print " The distance covered=";D
+End
+
+
+
+
+14)Write a program to find out the simple Interest. 
+
+
+Cls
+Input " Enter the Principal";P
+Input " Enter the Rate";R
+Input " Enter the Time";T
+Let I = P*T*R/100
+Print " The simple Interest = ";I
+End
+
+
+
+
+15)Write a program to find out the simple Interest and the Amount.
+
+
+Cls
+Input " Enter the Principal";P
+Input " Enter the Rate";R
+Input " Enter the Time";T
+Let I = P*T*R/100
+Let A= P + I 
+Print " The simple Interest = ";I
+Print " The amount=";A
+End
+
+
+
+
+16)Write any number and find it's half.
+Cls
+Input "Enter the desired number "; N
+Let H = N/2
+Print "The half of the number = ";H
+END
+
+
+
+
+17)Write a program to find the area of four walls of a room.
+
+
+Cls
+Input"Enter the height ";H
+Input"Enter the length "; L
+Input"Enter the Breadth";B
+Let A= 2 * H * (L+B)
+Print " The area of four walls =";A
+End 
+
+
+
+
+18)Write a program to find the perimeter of a rectangle.
+
+
+Cls
+Input " enter the length " ;l
+Input " enter the breadth " ;b 
+Let P=2*(l+b)
+Print" The perimeter of rectangle=" ;P
+End
+
+
+
+
+19)Write a program to enter any three numbers,sum and the average.
+
+
+Cls
+Input " Enter any number" ;A
+Input " Enter any number" ;B
+Input " Enter any number" ;C
+Let Sum = A+B+C
+Let Average =Sum/3
+Print" The sum=" ;Sum
+Print" The Average is " ;Average
+End
+
+
+
+
+20)Write a program to enter any two numbers their Sum,Product and the Difference.
+
+
+CLS 
+Input " Enter any number" ;A
+Input " Enter any number" ;B
+Let Sum = A+B
+Let Difference= A-B
+Let Product = A*B
+Print" the sum =" ;Sum
+Print" the Difference =" ;Difference
+Print" the Product =" ; Product
+End 
+
+
+
+
+21)Write a program to find the average of three different numbers.
+
+
+Cls
+Input" Enter the number " ;A
+Input" Enter the number " ;B
+Input" Enter the number " ;C
+Let Avg= (A+B+C)/3
+Print" The average=" ;Avg
+End
+
+
+
+
+22)Write a program to input student's name,marks obtained in four different subjects,find the total and average marks. 
+
+
+Cls
+Input" Enter the name " ;N$
+Input" Enter the marks in English" ;E
+Input" Enter the marks in Maths" ;M
+Input" Enter the marks in Science" ;S
+Input" Enter the marks in Nepali" ;N 
+Let S=E+M+S+N
+Let A=S/4
+Print " The name of the student is" ;N$
+Print " The total marks is" ;S
+Print " The Average marks" ;A
+End 
+
+
+
+
+23)Write a program to find 10%,20% and 30% of the input number.
+
+
+Cls
+Input" Enter any number" ;N
+Let T=10/100*N
+Let Twe=20/100*N
+Let Thi=30/100*N 
+Print " 10%of input number=" ;T
+Print " 20%of input number=" ;Twe
+Print " 30%of input number=" ;Thi 
+End 
+
+
+24)Write a program to convert the distance to kilometer to miles.
+
+
+Cls
+Input" Enter the kilometer" ;K 
+Let M=K/1.6
+Print " The miles = " ;M
+End
+
+
+25)Write a program to find the perimeter of square.
+
+
+Cls
+Input “Enter the length”; L
+Let P =4 * L
+Print “ The perimeter of square=”;P
+End
+
+
+
+
+26)Write a program to enter the Nepalese currency and covert it to Indian Currency.
+
+
+CLS
+Input “Enter the Nepalese currency” ;N
+Let I = N * 1.6
+Print “the Indian currency=”;I
+End
+
+
+27)Write a program to enter the Indian currency and covert it to Nepalese Currency.
+
+
+CLS
+Input “Enter the Indian currency” ;N
+Let N = I / 1.6
+Print “the Nepalese currency=”;I
+End
+
+
+
+
+28)Write a program to enter any number and find out whether it is negative or positive.
+
+
+CLS
+Input “Enter the number”; N
+If N>0 Then
+Print “ The number is positive”
+Else
+Print “The number is negative”
+EndIf
+End 
+
+
+
+
+29)Write a program to enter any number and find out whether it is even or odd using select case statement.
+
+
+Cls
+Input “Enter any number” ;N
+R=N mod 2
+Select case R
+Case = 0 
+Print “The number is Even number”
+Case Else
+Print “The number is odd number”
+End Select
+End 
+
+
+
+
+30)Write a program to check the numbers between 1 & 3.
+
+
+Cls
+Input “Enter the numbers between 1-3”;N
+Select case N
+Case 1
+Print “It’s number 1”;
+Case 2
+Print “It’s a number 2”;
+Case 3
+Print “It’s a number 3”
+Case else 
+Print “It’s out of range”;
+End select
+End 
+
+
+
+
+31)Write a program to enter any alphabet and test alphabet is ‘a’ or not using the select case statement.
+
+
+Cls
+Input “Enter the alphabet”;A$
+A$=UCase$ (A$)
+Select Case A$
+Case ‘A’
+Print “It’s alphabet A”
+Case Else
+Print “It’s not alphabet A” 
+End Select 
+End 
+
+
+
+
+32)Write a program to enter any alphabet and find out whether the number is vowel or alphabet. 
+
+
+Cls
+Input “Enter Letters/Alphabet”;A$
+A$ = UCase $ (A$)
+Select case A$
+Case “A”, “E”, “I”, “O”, “U”
+Print “Its’ a vowel”
+Case Else 
+Print “ It’s not a vowel”
+End Select
+End
+
+
+
+
+33)Generate the following numbers using For….Next…..Loop.
+1,2,3,4,…,50
+
+
+CLS
+For I = 1 to 50 Step 1
+Print I
+Next I
+End 
+
+34)Generate the following numbers using For….Next…..Loop.
+1,3,5,7,9,....99
+
+
+Cls
+For I = 1 to 99 Step 2
+Print I
+Next I
+End 
+
+
+
+35)Generate the following numbers using For….Next…..Loop.
+2,4,6,8,10,…50
+
+Cls
+For I = 2 to 50 Step 2
+Print I
+Next I
+End 
+
+
+
+
+36)Generate the following numbers using For….Next…..Loop.
+1,3,5,7,…99
+
+ClsFor I = 1 to 99 Step 2
+
+Print I
+Next I
+End 
+
+
+
+
+37)Generate the following numbers using For….Next…..Loop.
+5,10,15,…90
+
+
+Cls
+For I = 5 to 90 Step 5
+Print I
+Next I
+End 
+
+
+
+
+38) Generate the following numbers using For….Next…..Loop.
+10,20,30,40,…100.
+
+
+Cls
+For I = 10 to 100 Step 10
+Print I
+Next I
+End 
+
+
+
+
+39)Write a program to print numbers stated below USING WHILE…WEND STATEMENT.
+
+
+Cls
+I = 1
+While I<=100
+Print I ;
+I = I + 1
+WEND 
+END
+
+
+
+
+40)Generate the following numbers using For….Next…..Loop.
+2,4,6,8,10….50
+
+
+CLS
+I = 2
+While I < =50
+Print I;
+I = I + 2
+WEND 
+END
+
+
+
+
+41)Write a program to print numbers stated below USING WHILE…WEND STATEMENT.
+1,3,5,7,9,…99
+
+
+CLS 
+I = 1
+While I <=99
+Print I;
+I = I + 2
+WEND 
+END
+
+
+
+
+42)Write a program to print numbers stated below USING WHILE…WEND STATEMENT.
+1,4,9,…upto 10th term.
+
+
+CLS 
+I=1
+While I < =10
+Print I^2;
+I = I + 1
+WEND 
+END 
+
+
+
+
+
+
+*Please comment if you find anything wrong.Thank You.
+Copyright. 
+
+
+ Posted by  Aayush kc     at  4:32 AM      
+
+ 
+ 
+
+ 
+
+ 
+288 comments:
+
+  
+
+
+
+
+
+
+
+MelMay 7, 2012 at 11:50 AM
+
+Do you think you could help me write some Qbasic statements? I have a final due tomorrow and i am so lost!
+Reply
+
+Replies
+
+
+
+
+
+
+UnicodistJune 1, 2017 at 1:51 AM
+
+Yeah, i can help, XD
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+vishnu priyaDecember 6, 2013 at 9:38 PM
+
+thank u soo much this is so useful for my test but i needed two more 
+Reply
+
+
+
+
+
+
+Dawn SharmaMarch 16, 2014 at 9:51 PM
+
+THANK YOU SOOOO MUCH!! 
+I seriously don't get QBASIC and I was absent when my teacher taught us how to do some programs. I'm gonna ace my final!! =) 
+Reply
+
+
+
+
+
+
+Lagari .AJanuary 2, 2015 at 10:30 AM
+
+need some more. please include code and its descriptions also
+Reply
+
+
+
+
+
+
+Deborah IbidapoJanuary 2, 2015 at 1:00 PM
+
+how bout statements for calculating average?
+Reply
+
+
+
+
+
+
+shashi kanthcnFebruary 3, 2015 at 10:02 PM
+
+thank you i have learned program which is more useful to me add more program to develop the skill on qbasic
+
+Reply
+
+
+
+
+
+
+bishal pahariMarch 18, 2015 at 8:36 AM
+
+5
+55
+555
+5555
+55555
+555555
+5555555
+55555555
+
+And 
+
+NEPAL
+NEPA
+NEP
+NE
+N
+Will you help me to solve this two program please
+
+Reply
+
+Replies
+
+
+
+
+
+
+kpDecember 20, 2015 at 5:49 AM
+
+CLS
+A=5
+For I =1 to5
+Print A;
+A=A*10+4
+Next I
+End
+
+
+
+
+
+
+
+
+Princess AdeJanuary 25, 2017 at 5:23 AM
+
+Input "enter ur score for math", a
+input"enter ur score for English ", b
+input "enter ur score for chemistry ", c
+input "enter ur score for agric", d
+input "enter ur score for economic ", e
+input "enter ur score for statistics ", f
+let sum=a+b+c+d+e+f
+let av=sum/6
+Print sum; av
+end
+
+
+
+
+
+
+
+
+Piyush Kumar RaiFebruary 11, 2017 at 4:34 AM
+
+5
+55
+555
+5555
+55555
+555555
+5555555
+55555555
+
+FOR I = 1 TO 8
+FOR J = 1 TO I
+PRINT "5";
+NEXT J
+NEXT I
+
+
+
+
+
+
+
+
+Adil MannanMarch 1, 2017 at 2:21 PM
+
+This helped me a lityle but I will suggest to take iswas from this and understand the test from book.THANK YOU=:-).
+
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+Apar BhandariAugust 5, 2015 at 6:16 PM
+
+CLS
+A$="55555555"
+for i=1 to len(A$)
+PRINT left$(A$,I)
+next
+end
+---------------------------------------------------------------------------------------------------------------- 
+
+CLS
+A$="NEPAL"
+FOR i=len(A$) to 1 step -1
+print left$(A$,I)
+next
+end
+
+Reply
+
+
+
+
+
+
+Apar BhandariAugust 5, 2015 at 7:28 PM
+
+CLS
+A$="55555555"
+for i=1 to len(A$)
+PRINT left$(A$,I)
+next
+end
+---------------------------------------------------------------------------------------------------------------- 
+
+CLS
+A$="NEPAL"
+FOR i=len(A$) to 1 step -1
+print left$(A$,I)
+next
+end
+
+Reply
+
+
+
+
+
+
+Prapti ?August 30, 2015 at 7:30 AM
+
+This comment has been removed by the author.
+Reply
+
+
+
+
+
+
+UnknownSeptember 16, 2015 at 9:47 AM
+
+Please help me to make a calculator that can convert celsius to fahrenheit and vice versa....
+
+Reply
+
+Replies
+
+
+
+
+
+
+Giorgio GiorginiDecember 25, 2015 at 12:38 PM
+
+REM *** By Giorgio, Italy ***
+CLS
+2000 PRINT "Convert Celsius to Fahrenheit and vice versa"
+PRINT
+PRINT "1) " + CHR$(248) + "C --> " + CHR$(248) + "F"
+PRINT "2) " + CHR$(248) + "F --> " + CHR$(248) + "C"
+PRINT "3) Exit"
+PRINT
+INPUT "Type 1,2 or 3 ", a
+PRINT
+IF a = 1 THEN GOSUB 3000
+IF a = 2 THEN GOSUB 4000
+IF a = 3 THEN END
+GOTO 2000
+
+3000 REM *** c to f ***
+CLS
+INPUT "Type Celsius ", C
+F = C * 1.8 + 32
+PRINT
+PRINT C, CHR$(248) + "C = ", F, CHR$(248) + "F"
+PRINT
+RETURN
+
+4000 REM *** f to c ***
+CLS
+INPUT "Type Fahrenheit ", F
+C = (F - 32) / 1.8
+PRINT
+PRINT F, CHR$(248) + "F = ", C, CHR$(248) + "C"
+PRINT
+RETURN
+
+
+
+
+
+
+
+UnknownFebruary 24, 2016 at 8:46 AM
+
+Make a program to enter the marks of five subject and their total and average 
+
+
+
+
+
+
+
+Aryaman MittalFebruary 24, 2016 at 8:47 AM
+
+Make a program to enter the marks of five subject and their total and average 
+
+
+
+
+
+
+
+HAPPYMarch 2, 2017 at 1:04 AM
+
+CLS
+INPUT "ENTER THE MARKS OF SUBJECT 1"; A
+INPUT "ENTER THE MARKS OF SUBJECT 2"; B
+INPUT "ENTER THE MARKS OF SUBJECT 3"; C
+INPUT "ENTER THE MARKS OF SUBJECT 4"; D
+INPUT "ENTER THE MARKS OF SUBJECT 5"; E
+SUM = A + B + C + D + E
+AVERAGE = (A + B + C + D + E) / 5
+PRINT "TOTAL="; SUM
+PRINT "AVERAGE="; AVERAGE
+END
+
+
+
+
+
+
+
+UnknownMay 1, 2017 at 12:26 AM
+
+CLS
+'We will input 5 subjects
+INPUT "Enter marks of 1st Subject";a
+INPUT "Enter marks of 2nd Subject";b
+INPUT "Enter marks of 3rd Subject";c
+INPUT "Enter marks of 4th Subject";d
+INPUT "Enter marks of 5th Subject";e
+'Mathmatical Formulas
+LET add = a + b + c + d + e
+LET aver = (a + b + c + d + e) / 5
+PRINT "The total is: ";add
+PRINT "The average marks is: ";aver
+END
+
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+abha chopraSeptember 23, 2015 at 7:13 AM
+
+This is very useful
+Reply
+
+
+
+
+
+
+abha chopraSeptember 23, 2015 at 7:13 AM
+
+This is very useful
+Reply
+
+
+
+
+
+
+Jonas MonyoSeptember 25, 2015 at 3:52 AM
+
+please somebody should help me to write an algorithm to compute n! (N-Factorial)...
+Reply
+
+Replies
+
+
+
+
+
+
+Giorgio GiorginiDecember 25, 2015 at 1:39 PM
+
+REM *** By Giorgio, Italy ***
+CLS
+2000 PRINT "Calcola fattoriale - N!"
+PRINT
+n = 1
+INPUT "Type a number, 0 for Exit ", a
+PRINT
+IF a < 1 THEN END
+FOR l = 1 TO a
+n = n * l
+NEXT l
+PRINT n
+PRINT
+GOTO 2000
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+nishita guduruOctober 17, 2015 at 11:53 AM
+
+Please can you help me with this one
+*
+***
+*****
+*******
+*********
+*******
+*****
+***
+*
+Reply
+
+
+
+
+
+
+nishita guduruOctober 17, 2015 at 11:53 AM
+
+Please can you help me with this one
+*
+***
+*****
+*******
+*********
+*******
+*****
+***
+*
+Reply
+
+Replies
+
+
+
+
+
+
+UnknownMay 2, 2016 at 7:08 AM
+
+cls
+m$="*******"
+for a= 1 to 7
+print left$ (m$,a)
+next a
+m$="******"
+for a=4 to 1 step -1
+print left$(m$,a)
+next a
+end
+
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+krisha kothariOctober 22, 2015 at 7:39 AM
+
+can u give discription of syntax"sel" and some programs of "mid$(1,l) etc.
+thank u by the way this is very helpful
+Reply
+
+
+
+
+
+
+Praveen MalikOctober 28, 2015 at 9:57 AM
+
+Please help me . Complete this statement
+____x=5_____print x
+Reply
+
+
+
+
+
+
+UnknownOctober 29, 2015 at 8:16 AM
+
+Please help me
+1 2 3 5 8... Upto 10th term
+Reply
+
+
+
+
+
+
+Kool ArpanOctober 29, 2015 at 10:06 PM
+
+He ADmin MAke your Blogspot. Really Attractive By Your Template Like I Have 
+https://koolproduction.blogspot.com
+
+Reply
+
+
+
+
+
+
+Vijay DadhichNovember 6, 2015 at 5:35 AM
+
+In question number 28th the line: If N>0 Then is not properly.
+Iam doing the same thing but my computer shows the error. why is it so. 
+
+
+Reply
+
+
+
+
+
+
+Tun Tun BanerjeeNovember 6, 2015 at 11:58 PM
+
+write a program to enter a number and find and print the number of digits present in the number and also print the digits which are prime.
+ please help me to solve this program using while wend loop.
+Reply
+
+
+
+
+
+
+Rashmi SawdawkarNovember 26, 2015 at 5:18 PM
+
+Very useful... but also add programms for calculation such as prime nos. Odd nos squares etc
+Reply
+
+
+
+
+
+
+Viney PsDecember 14, 2015 at 1:00 PM
+
+This comment has been removed by the author.
+Reply
+
+
+
+
+
+
+Viney PsDecember 14, 2015 at 1:00 PM
+
+Get ur motherfucking asses on the table
+Reply
+
+
+
+
+
+
+SakuntalaDecember 19, 2015 at 8:36 PM
+
+THERE'S A PROBLEM IN PROGRAM NO. 32 AS THERE ARE 2TIMES THIS A VOWEL 
+Reply
+
+
+
+
+
+
+Das MoumoyeeJanuary 6, 2016 at 3:52 AM
+
+WRITE A PROGRAM TO ADD 2 ARRAYS AND STORE IN THE THIRD ARRAY.
+Reply
+
+
+
+
+
+
+Bipan RautJanuary 15, 2016 at 2:39 AM
+
+help me to print this program.
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+
+
+Reply
+
+Replies
+
+
+
+
+
+
+Starship NepalJuly 27, 2016 at 3:25 AM
+
+CLS
+a = 1
+FOR i = 1 TO 5
+ FOR j = 1 TO i
+ PRINT a;
+ a = a + 1
+ NEXT j
+ PRINT
+NEXT i
+END
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+Peace JourneyJanuary 20, 2016 at 10:44 PM
+
+i need one more right now to find ticket fair required to be paid according to the age of passenger please
+Reply
+
+
+
+
+
+
+thankgod uduvweJanuary 28, 2016 at 7:10 PM
+
+write a qbasic program that find the avrage age of 10 students using do loop
+Reply
+
+
+
+
+
+
+UnknownJanuary 29, 2016 at 7:00 AM
+
+54321
+4321
+321
+21
+1
+
+and
+
+12345
+2345
+345
+45
+5
+
+and
+
+5
+54
+543
+5432
+54321
+
+pls help me with writing programs for these output
+Reply
+
+
+
+
+
+
+UnknownJanuary 29, 2016 at 7:00 AM
+
+This comment has been removed by the author.
+Reply
+
+
+
+
+
+
+chatykrewFebruary 3, 2016 at 4:22 AM
+
+Thanks for the questions and solutions. I want to use it for my students in pascal and fortran and this is simply helpful. thanks
+Reply
+
+
+
+
+
+
+Raja HarshFebruary 4, 2016 at 4:52 AM
+
+It has some problem that it does not show the output
+
+Reply
+
+
+
+
+
+
+Anubhooti bhardwajFebruary 11, 2016 at 7:09 AM
+
+Thanks..
+Reply
+
+
+
+
+
+
+Anubhooti bhardwajFebruary 11, 2016 at 7:11 AM
+
+Can you please tell me how to generate the series of 11,22,33,44...up to 10 terms...???
+
+
+Reply
+
+Replies
+
+
+
+
+
+
+Anubhooti bhardwajFebruary 12, 2016 at 6:10 AM
+
+Please answer me..
+
+
+
+
+
+
+
+Anubhooti bhardwajFebruary 12, 2016 at 6:10 AM
+
+Please answer me..
+
+
+
+
+
+
+
+Sangharsha SapkotaMarch 13, 2016 at 7:46 AM
+
+CLS
+a=11
+For i = 1 to 10
+Print a;
+a=a+11
+Next i 
+END
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+Asad UllahFebruary 11, 2016 at 11:57 AM
+
+My question is 
+Write a program to find the SUM and PERCENTAGE of any 4 NOS using the INPUT STATEMENT
+Reply
+
+
+
+
+
+
+UnknownFebruary 24, 2016 at 6:42 PM
+
+Thank You So Much Sir. i Got Confused When My Little Sis asked To Do Some Program On QBasic But thanks to God That Your Blog Helped me in order to solve some of her problem. 
+
+Reply
+
+
+
+
+
+
+edison emmanuelFebruary 24, 2016 at 10:13 PM
+
+please someone should help me in writing a program on how to generate factorial numbers using qbasic.......thanks
+Reply
+
+
+
+
+
+
+Varun kumarMarch 2, 2016 at 4:03 AM
+
+this help me to write well in exams
+Reply
+
+
+
+
+
+
+UnknownMarch 12, 2016 at 1:18 PM
+
+COOL... thanks to You for designing this website, now I know where my mistake is from...
+Reply
+
+
+
+
+
+
+UnknownMarch 12, 2016 at 1:18 PM
+
+COOL... thanks to You for designing this website, now I know where my mistake is from...
+Reply
+
+
+
+
+
+
+Sangharsha SapkotaMarch 13, 2016 at 7:42 AM
+
+Hey guys ca you solve this qbasic problem:
+Display the given series 
+
+000
+111
+ 0
+ 1
+000
+111
+
+Solve it thank you
+Reply
+
+
+
+
+
+
+shusma lamaMarch 15, 2016 at 5:03 AM
+
+WAP to input 2 num and find the greatest among them. How to do this ?
+Reply
+
+Replies
+
+
+
+
+
+
+CodeAideJune 1, 2016 at 8:13 AM
+
+Rem +++++++++++++++++++++++++++++++
+Rem Shusma
+Rem
+Rem CodeAide
+Rem +++++++++++++++++++++++++++++++
+
+Locate 7,5
+input "Enter Your First of 2 Numbers: ",FirstNum
+Locate 9,5
+input "Enter Your Second Number: ",SecondNum
+If FirstNum > SecondNum Then Print, FirstNum" is the greater number
+If SecondNum > FirstNum Then Print, SecondNum" is the greater number
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+Nishan KhanalMarch 29, 2016 at 6:11 PM
+
+wap to find reverse of a number
+Reply
+
+Replies
+
+
+
+
+
+
+UnknownMay 17, 2016 at 6:15 AM
+
+for N = 15 to 1 STEP -2
+PRINT N
+NEXT N
+END
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+chikeluba AzuchukwueneApril 19, 2016 at 1:34 AM
+
+Very useful. My kid sister was on my neck and i need to solve one more, i don't know if you can help out with that one.
+
+TO FIND THE VOLUME OF A CYLINDER? 
+Reply
+
+
+
+
+
+
+Saba IbrahimApril 19, 2016 at 4:09 AM
+
+someone please help with this: write a simple basic program to achieve the following a.Finding the mean of five numbers. b.finding the volume of a cylinder. thank you
+Reply
+
+
+
+
+
+
+younus mdApril 22, 2016 at 3:15 AM
+
+Can any one help me in below mentioned programs
+
+1. Write a program to accept the value for X and solve the following algebraic equation
+
+3 X square +X +4
+
+X square +X+5
+
+2. Write a program to accept a radius of a circle and calculate circumference. Display the
+
+values
+
+3. W.A.P to accept rate and quantity of an item . calculate the total price, 12% discount on the
+
+total price , net amount using the formula given below. Display all values
+
+4. W.A.P to accept the value to be converted into Z also accept the rate of conversion for
+
+pounds and US dollars perform the conversion. Display all values
+
+5.W.A.P to solve the algebraic equation
+
+Reply
+
+
+
+
+
+
+hina alamMay 2, 2016 at 7:13 AM
+
+need some more programs please relating string functions quick my exams are on my head
+
+Reply
+
+
+
+
+
+
+Swastik shekhar sarkarMay 3, 2016 at 9:40 PM
+
+I don`t like it!
+I love it!
+Very useful site !
+
+Reply
+
+
+
+
+
+
+Riya SenMay 14, 2016 at 10:34 AM
+
+Can any one help me ...
+1 square + 2 square + 3 square...upto N square
+Reply
+
+Replies
+
+
+
+
+
+
+Riya SenMay 14, 2016 at 10:38 AM
+
+please help me
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+Riya SenMay 14, 2016 at 10:35 AM
+
+please reply me 
+Reply
+
+
+
+
+
+
+Merit BhandariMay 24, 2016 at 5:21 AM
+
+wap to display first 10 natural numbers using if then go to.
+
+Reply
+
+Replies
+
+
+
+
+
+
+CodeAideJune 1, 2016 at 2:46 AM
+
+This comment has been removed by the author.
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+NIGAM COMPUTER SolutionsJune 1, 2016 at 10:44 PM
+
+Write a program to accept the cost price and selling price of an article, if the selling price is more than the cost price then calculate actual profit and profit percent, otherwise actual loss and loss percent.
+Reply
+
+
+
+
+
+
+NIGAM COMPUTER SolutionsJune 1, 2016 at 10:44 PM
+
+Please reply as soon as possible thanks
+Reply
+
+
+
+
+
+
+CodeAideJune 2, 2016 at 1:26 AM
+
+This comment has been removed by the author.
+Reply
+
+Replies
+
+
+
+
+
+
+CodeAideJune 2, 2016 at 1:34 AM
+
+This comment has been removed by the author.
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+Tejas ChittlangiaJune 12, 2016 at 5:50 AM
+
+can u give me 2 QBASIC statement about ELSE IF????
+Reply
+
+
+
+
+
+
+Tejas ChittlangiaJune 18, 2016 at 12:10 PM
+
+Can I get 5 else if statement and 10 select case statement
+Reply
+
+
+
+
+
+
+Tejas ChittlangiaJune 18, 2016 at 12:11 PM
+
+,5 qbasic else if statement and 10 select case statement
+Reply
+
+
+
+
+
+
+gayatri sahaJune 30, 2016 at 10:54 PM
+
+please help me to solve 1,4,9,16,25 using For next loop
+Reply
+
+
+
+
+
+
+dipen karkiJuly 11, 2016 at 7:41 AM
+
+1,4,9,1625
+cls
+for i= 1 to 5
+print i^2
+next
+end
+
+Reply
+
+
+
+
+
+
+Hari GovindaJuly 17, 2016 at 8:26 AM
+
+wap that asls any string value and dispaly its reverse 
+Reply
+
+
+
+
+
+
+coolJuly 18, 2016 at 6:44 AM
+
+can u help me solve thhis series 
+1
+22
+333
+
+Reply
+
+Replies
+
+
+
+
+
+
+Sundar BhattaraiJuly 25, 2016 at 3:17 AM
+
+This comment has been removed by the author.
+
+
+
+
+
+
+
+Sundar BhattaraiJuly 25, 2016 at 9:29 AM
+
+CLS
+FOR I = 1 TO 3
+FOR J = I TO 1 STEP -1
+PRINT I;
+NEXT J
+PRINT
+NEXT I
+END
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+Damaru Chandra BhattaJuly 26, 2016 at 7:41 PM
+
+write a program to input day of week in number and then display in character such as 1 for sunday, 2 for monday etc in qbasic
+
+
+Reply
+
+
+
+
+
+
+Damaru Chandra BhattaJuly 26, 2016 at 7:42 PM
+
+write a program to check entered number is positive ,negative or neutral in qbasic
+Reply
+
+
+
+
+
+
+Kiran ChaudharyAugust 3, 2016 at 10:27 PM
+
+Help me 1+2+3=6
+Reply
+
+
+
+
+
+
+Priyanshi DoshiAugust 17, 2016 at 9:30 AM
+
+help me!!!!with this one
+1
+12
+123
+1234
+12345
+123456
+1234567
+12345678
+123456789
+Reply
+
+
+
+
+
+
+Priyanshi DoshiAugust 17, 2016 at 9:30 AM
+
+help me!!!!with this one
+1
+12
+123
+1234
+12345
+123456
+1234567
+12345678
+123456789
+Reply
+
+Replies
+
+
+
+
+
+
+Helper556January 14, 2017 at 7:06 PM
+
+CLS
+FOR i = 1 TO 9
+ FOR j = 1 TO i
+ PRINT j;
+ NEXT j
+ PRINT
+NEXT i
+END
+
+
+
+
+
+
+
+
+Helper556January 14, 2017 at 7:07 PM
+
+CLS
+FOR i = 1 TO 9
+ FOR j = 1 TO i
+ PRINT j;
+ NEXT j
+ PRINT
+NEXT i
+END
+
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+Kadeejathul KhubraSeptember 3, 2016 at 4:04 AM
+
+Check if higher than 100 help me
+
+Reply
+
+
+
+
+
+
+Arzob lover of pure scienceSeptember 15, 2016 at 6:24 AM
+
+cls
+input "enter a number";m
+if m > 100 then print "hihger than 100"
+if m < 100 then print"less than 100"
+else print "the number is 100"
+end
+Reply
+
+
+
+
+
+
+Arzob lover of pure scienceSeptember 15, 2016 at 6:25 AM
+
+cls
+input "enter a number";m
+if m > 100 then print "hihger than 100"
+if m < 100 then print"less than 100"
+else print "the number is 100"
+end
+Reply
+
+
+
+
+
+
+UnknownSeptember 15, 2016 at 9:13 AM
+
+write a program to ask the user to enter 2 natural nos. and then display the square of the difference.
+
+pls solve this program for me now as i have teast tomorrow morning
+Reply
+
+
+
+
+
+
+Divij JainSeptember 15, 2016 at 9:16 AM
+
+write a program to ask the user to enter 2 natural nos. and then display the square of the difference.
+
+pls solve this program for me now as i have teast tomorrow morning
+Reply
+
+
+
+
+
+
+shaikh basheeruddinOctober 6, 2016 at 6:17 AM
+
+plz send me a program for tax variables-basic price tax if tax is 5/ 
+Reply
+
+
+
+
+
+
+shaikh basheeruddinOctober 6, 2016 at 6:26 AM
+
+plz send me a program for tax variables-basic price tax if tax is 5/ 
+Reply
+
+
+
+
+
+
+pawan hadaOctober 15, 2016 at 1:36 AM
+
+Display the following series 2,4,6,8..... up to 10th term. Could you plz tell me this answer I'm having a problem
+Reply
+
+
+
+
+
+
+Megan MonteiroOctober 20, 2016 at 4:35 AM
+
+This comment has been removed by the author.
+Reply
+
+
+
+
+
+
+Megan MonteiroOctober 20, 2016 at 4:45 AM
+
+can someone help me with this one!!!!!
+11235813................100
+Reply
+
+
+
+
+
+
+Joshua Joseph NoronhaOctober 20, 2016 at 7:11 PM
+
+thanks it has helped me a lot for tomorrow's examine. 
+Reply
+
+
+
+
+
+
+Anuradha MukherjeeOctober 22, 2016 at 7:57 PM
+
+Thank you..but it would be also very useful if you write any qb64 mod programme.
+Reply
+
+
+
+
+
+
+Beatrice IfunanyaOctober 24, 2016 at 3:24 AM
+
+Write a program on moving text pls
+Reply
+
+
+
+
+
+
+Beatrice IfunanyaOctober 24, 2016 at 3:25 AM
+
+Write a program on moving text pls
+Reply
+
+
+
+
+
+
+Vivian HerbertOctober 25, 2016 at 9:17 PM
+
+print prime numbers in the range of 1 to 50 using the FOR..NEXT Loop statement Display all letters from A to Z using FOR.. NEXT Loop can some one help me with this Thanks in Advance
+Reply
+
+
+
+
+
+
+ACEOctober 26, 2016 at 9:00 AM
+
+Please can someone help me with this program:
+
+Display all the letters from A-Z using the FOR.....NEXT loop statement.
+Reply
+
+
+
+
+
+
+ACEOctober 26, 2016 at 9:04 AM
+
+@ Vivian Herbert For printing Prime numbers in range of 1 to 50 this is the program:
+
+CLS
+PRINT
+FOR I=1 TO 50
+COUNT=0
+FOR J=1 TO I
+IF (I MOD J=0) THEN
+COUNT=COUNT+1
+END IF
+NEXT
+IF COUNT=2 THEN
+PRINT I
+END IF 
+NEXT 
+END
+Reply
+
+
+
+
+
+
+ACEOctober 26, 2016 at 9:07 AM
+
+@ Vivian Herbert For printing Prime numbers in range of 1 to 50 this is the program:
+
+CLS
+PRINT
+FOR I=1 TO 50
+COUNT=0
+FOR J=1 TO I
+IF (I MOD J=0) THEN
+COUNT=COUNT+1
+END IF
+NEXT
+IF COUNT=2 THEN
+PRINT I
+END IF 
+NEXT 
+END
+Reply
+
+
+
+
+
+
+UnknownNovember 1, 2016 at 5:26 AM
+
+Very useful
+Reply
+
+
+
+
+
+
+Abhijit DattaNovember 1, 2016 at 5:27 AM
+
+Very useful
+Reply
+
+
+
+
+
+
+Nathan LamazyNovember 1, 2016 at 11:39 AM
+
+W.A.P to assign the element in two arrays having 3 rows n 3 columns .The 3rd shoukd contain the sum of 2 array
+Reply
+
+
+
+
+
+
+Raj raushanNovember 2, 2016 at 7:51 AM
+
+Please help me to make a calculator that can find hypotenus of a right angle triangle
+
+Reply
+
+
+
+
+
+
+Shaurya GuptaNovember 17, 2016 at 2:50 AM
+
+Please tell me how to print multiplication table of 5 to 50 in a single program using wild when loop
+Reply
+
+
+
+
+
+
+Shaurya GuptaNovember 17, 2016 at 2:50 AM
+
+Please tell me how to print multiplication table of 5 to 50 in a single program using wild when loop
+Reply
+
+
+
+
+
+
+abdur rahmanNovember 26, 2016 at 9:06 AM
+
+I love these programs for QBASIC!!!!!!
+Reply
+
+
+
+
+
+
+UnknownNovember 27, 2016 at 11:31 AM
+
+Can someone help me with this: Write a QBASIC program to generate thirty random integer number distributed btw 20 n 50. Ur program shld ensure that no number is repeated.
+Reply
+
+
+
+
+
+
+UnknownDecember 8, 2016 at 5:18 AM
+
+I want to print a program of first ten multiples of 6,7,8.
+
+
+Reply
+
+
+
+
+
+
+vijaya lakshmiDecember 8, 2016 at 5:18 AM
+
+Pls give the program fast
+
+Reply
+
+
+
+
+
+
+vijaya lakshmiDecember 8, 2016 at 5:19 AM
+
+This comment has been removed by the author.
+Reply
+
+
+
+
+
+
+vijaya lakshmiDecember 8, 2016 at 5:51 AM
+
+Write a program to generate the following series 
+*****
+****
+***
+**
+*
+Reply
+
+
+
+
+
+
+priyashree baruaDecember 10, 2016 at 9:02 PM
+
+wap to print the sum of series: 1+4+9+16+...100
+Reply
+
+
+
+
+
+
+Sampras PaudelDecember 18, 2016 at 7:01 PM
+
+What is the solution to display the flag of Nepal?
+
+*
+**
+***
+****
+*****
+******
+*******
+*
+**
+***
+****
+*****
+******
+*******
+**
+**
+**
+**
+Reply
+
+
+
+
+
+
+shivani shrivastavaDecember 20, 2016 at 6:59 AM
+
+Pls tell me how to make program to print the report cards of 30 students using q basic
+Reply
+
+
+
+
+
+
+UnknownDecember 22, 2016 at 6:30 AM
+
+A person is allowed to get a driving license only after the age of 18. write a program to accept the age of a person and display whether he should be given a license or not
+Reply
+
+Replies
+
+
+
+
+
+
+Bishnupada MondalDecember 23, 2016 at 6:40 PM
+
+This comment has been removed by the author.
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+Bishnupada MondalDecember 23, 2016 at 6:38 PM
+
+SQR (-16) 
+Can you give me this ones output?
+Reply
+
+
+
+
+
+
+pawan hadaDecember 23, 2016 at 7:10 PM
+
+display 4,5,9,14,23 upto 10th term
+
+Reply
+
+
+
+
+
+
+pawan hadaDecember 23, 2016 at 7:11 PM
+
+im having a problem with this program
+Reply
+
+
+
+
+
+
+ALEXANDRA PEDROLINAVINTODecember 27, 2016 at 3:14 AM
+
+Help me with this. Write QBASIC program to generate 30 random integer numbers distributed between 20 an 50.
+Reply
+
+
+
+
+
+
+Bibash PokhrelDecember 27, 2016 at 8:15 PM
+
+can u help me with this. write a qbasic program to input ten numbers and print only the odd numbers.
+Reply
+
+
+
+
+
+
+Hieya ChaturvediDecember 31, 2016 at 2:45 AM
+
+Please tell me how to write the sum of table of 3 till ten. 3+6+9.........+30
+
+
+Reply
+
+
+
+
+
+
+Hieya ChaturvediDecember 31, 2016 at 2:47 AM
+
+Please tell me how to write the sum of table of three. 3+6+9+12+........+30
+
+Reply
+
+
+
+
+
+
+dream dreamJanuary 2, 2017 at 12:38 AM
+
+Plz help me by solving this
+1
+2 6
+3 7 10
+4 8 11 13
+5 9 12 14 15
+
+Reply
+
+
+
+
+
+
+sanjog karkiJanuary 4, 2017 at 5:56 AM
+
+please help me solving this
+2
+24
+246
+2468
+246810
+Reply
+
+
+
+
+
+
+Haifa ArarJanuary 6, 2017 at 2:07 AM
+
+CLS
+A=5
+For I =1 to 8
+Print A
+A=A*10+5
+Next I
+End
+Reply
+
+
+
+
+
+
+Jyotiraditya SinghJanuary 8, 2017 at 1:46 AM
+
+please tell me how to get the multiples of a number which is inputted by the user
+Reply
+
+
+
+
+
+
+UnknownJanuary 10, 2017 at 10:06 AM
+
+12345
+22345
+33345
+44445
+55555
+
+Reply
+
+
+
+
+
+
+Abhay HoneyJanuary 18, 2017 at 5:39 AM
+
+How to find the sum and average of five number
+Reply
+
+Replies
+
+
+
+
+
+
+Prithwiraj SahaFebruary 26, 2017 at 12:05 AM
+
+REM TO FIND THE SUM AND AVERAGE OF FIVE NUMBER
+CLS
+INPUT "ENTER THE FIVE NUMBERS"; M1, M2, M3, M4, M5
+LET TOTAL = M1 + M2 + M3 + M4 + M5
+LET AVG = TOTAL/5
+PRINT "THE EQUIVALENT SUM AND AVERAGE IS"; TOTAL, AVG
+END
+
+
+
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+UnknownJanuary 18, 2017 at 6:32 AM
+
+Please tell me how to write a program to calculate the sum of positive and negative numbers if user has to enter 10 numbers 
+
+Reply
+
+
+
+
+
+
+Victory NumbereJanuary 21, 2017 at 1:00 PM
+
+Please i need help with this...
+
+Write a program that will take two members A & B and print out all the multiples of A from A. If B<=0, then no multiples will be printed
+Reply
+
+
+
+
+
+
+Chunna PaudyalJanuary 24, 2017 at 6:19 PM
+
+Please answer me;
+Input a complete date of birth of a person and compute his or her current age in sub end sub procedure.
+Reply
+
+
+
+
+
+
+UnknownFebruary 18, 2017 at 8:21 AM
+
+Can you answer me the question:6,11,21,36,56....10 terms
+
+Reply
+
+
+
+
+
+
+UnknownFebruary 26, 2017 at 7:28 AM
+
+Help me find the answer of to print first ten multiples of 6,7,and 8 in a creative way 
+Reply
+
+
+
+
+
+
+UnknownFebruary 27, 2017 at 3:58 AM
+
+please help me to write a program to display
+2 5 10 17 26 up to 12th term
+Reply
+
+
+
+
+
+
+Jenny gurungFebruary 27, 2017 at 4:15 AM
+
+please answer me
+
+Reply
+
+
+
+
+
+
+UnknownFebruary 27, 2017 at 4:36 AM
+
+To print the following numeric series
+3,33,333,3333,33333
+Reply
+
+
+
+
+
+
+sulakshana arjyalFebruary 27, 2017 at 4:37 AM
+
+These are very helpful please answer my question dai
+Reply
+
+
+
+
+
+
+sulakshana arjyalFebruary 27, 2017 at 4:41 AM
+
+This comment has been removed by the author.
+Reply
+
+
+
+
+
+
+UnknownFebruary 27, 2017 at 6:57 AM
+
+My question is how to write a program for integers
+Reply
+
+
+
+
+
+
+UnknownFebruary 27, 2017 at 6:58 AM
+
+This comment has been removed by the author.
+Reply
+
+
+
+
+
+
+UnknownFebruary 28, 2017 at 5:55 AM
+
+wap to display the first 10 terms of the series 3,6,12,24 using for-next and while-wend loop in qbasic.
+Reply
+
+
+
+
+
+
+Rajeev PandeyMarch 1, 2017 at 7:54 AM
+
+plz help me
+ print the qbasic program of series
+1
+2 6 
+3 7 10
+4 8 11 13
+5 9 12 14 15
+Reply
+
+Replies
+
+
+
+
+
+
+Rajeev PandeyMarch 1, 2017 at 8:24 AM
+
+PLZ FAST REPLY ME BRO U WILL BE THANK FUL I NEED FAST
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+UnknownMarch 2, 2017 at 2:10 AM
+
+WRITE A PROGRAM TO ENTER THE AGE OF THE FATHER.AGE OF THE SON.AGE OF THE SON IS TWO TIMES LESS THAN HIS FATHER'S AGE.PRNT THE AGE OF THE FATHER AND THE SON
+Reply
+
+
+
+
+
+
+osuji paulMarch 5, 2017 at 11:57 AM
+
+admin please, 
+a wage rate paid to a casual employee of a certain construction company is 175 naira per hr.
+write a single Qbasic program to compute the wage earned by an employee named paul who worked for a total of 68hrs 27mins. print out the name of the employee and the wage
+Reply
+
+
+
+
+
+
+Om GuptaMarch 7, 2017 at 5:44 PM
+
+Write a program to read names of 5 students and print them in reverse order.(using READ DATA statement) plz.
+Reply
+
+
+
+
+
+
+C.k. Jaiswal Science WebsiteMarch 7, 2017 at 9:05 PM
+
+its very much helpful for the schooling students
+
+Reply
+
+
+
+
+
+
+Aritra GhoshMarch 9, 2017 at 5:15 AM
+
+how to wap to find if a year is leap year or not
+Reply
+
+Replies
+
+
+
+
+
+
+HindiTutorPointMarch 22, 2017 at 2:59 AM
+
+Your Programm
+DIM X, Y, Z, YEAR
+INPUT "PLEASE INPUT YEAR"; YEAR
+X = YEAR MOD 4
+Y = YEAR MOD 100
+Z = YEAR MOD 400
+IF ((X = 0 AND NOT (Y = 0)) OR Z = 0) THEN
+ PRINT "THIS IS A LEAP YEAR"; YEAR
+ELSE
+ PRINT "THIS IS NOT LEAP YEAR"; YEAR
+END IF
+END
+
+Please Follow my blog 
+www.hinditutorpoint.blogspot.com
+
+
+
+
+
+
+
+Nicholas SyngkliMay 25, 2017 at 6:57 PM
+
+Help me to generate this series 11 22 33 44 up to 10 terms
+
+
+
+
+
+
+
+Nicholas SyngkliMay 25, 2017 at 7:00 PM
+
+This comment has been removed by the author.
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+UnknownMarch 10, 2017 at 7:03 AM
+
+to print number 1,3,6,10,15,21,28,36,45,55
+
+Reply
+
+
+
+
+
+
+UnknownMarch 10, 2017 at 7:03 AM
+
+to print number 1,3,6,10,15,21,28,36,45,55
+
+Reply
+
+
+
+
+
+
+UnknownMarch 10, 2017 at 7:03 AM
+
+to print number 1,3,6,10,15,21,28,36,45,55
+
+Reply
+
+Replies
+
+
+
+
+
+
+GYANENDRA ADHIKARIJune 22, 2017 at 7:30 AM
+
+CLS
+A=1
+FOR I =2 TO 11
+PRINT A;
+A=A+I
+NEXT I
+END
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+UnknownMarch 10, 2017 at 7:03 AM
+
+to print number 1,3,6,10,15,21,28,36,45,55
+
+Reply
+
+
+
+
+
+
+UnknownMarch 12, 2017 at 7:04 AM
+
+Write a program that stores name and telephone numbers of any 10 persons in a double dimension array. The program accepts a name of a person and displays corresponding telephone number
+
+Reply
+
+
+
+
+
+
+RAI SAHIBMarch 14, 2017 at 6:19 AM
+
+Write a program to display time in hours and convert time into minutes as well as seconds. 
+Reply
+
+Replies
+
+
+
+
+
+
+HindiTutorPointMay 8, 2017 at 1:27 AM
+
+Hello Dear Please Follow this link get your answer
+http://bloghindisupport.blogspot.com/2017/05/convert-time-program-in-qbasic.html
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+Agbim OdiraaMarch 18, 2017 at 8:12 AM
+
+Write a program to obtain (0-100) made by 20 student in a course from the user. The pass mark is 50 and above. Let the program find out the percentage of the students that passed the course and the class average score. Display useful message at the end of the computations.
+Reply
+
+
+
+
+
+
+Roshan AryalMarch 21, 2017 at 6:59 AM
+
+KATHMANDU
+ ATHMAND
+ THMAN
+ HMA
+ M
+
+
+ plz solve it..ANYONE THANK U 
+
+Reply
+
+
+
+
+
+
+tachyonMarch 30, 2017 at 5:16 AM
+
+write a program to input any number and print only composite number
+Reply
+
+
+
+
+
+
+SBMay 1, 2017 at 7:54 AM
+
+Thank you. I learnt a lot from this page.
+Q 28. If we input 0, then it says 'the number is negative'. But 0 is not negative!
+Reply
+
+
+
+
+
+
+UnknownMay 5, 2017 at 10:21 PM
+
+how do we make this one
+*
+**
+***
+****
+*****
+Reply
+
+Replies
+
+
+
+
+
+
+UNKNOWNMay 27, 2017 at 5:31 AM
+
+CLS
+S$ = "*****"
+M = LEN(S$)
+FOR I = 1 TO M
+SUB$ = LEFT$(S$,I)
+PRINT SUB$
+NEXT I
+END
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+UnknownMay 9, 2017 at 11:15 AM
+
+How do you generate 0.3,0.33,0.333,0.3333 .... Upto 9th term 
+Reply
+
+Replies
+
+
+
+
+
+
+UNKNOWNMay 27, 2017 at 5:37 AM
+
+CLS
+A = 0.3
+N = 1
+TOP:
+ PRINT A
+ A = A/10
+ N = N + 1
+IF N less than symbol= 9 THEN GOTO TOP
+End
+
+
+
+
+
+
+
+UNKNOWNMay 27, 2017 at 5:38 AM
+
+*PRINT A;
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+Star Utsav Digital StudioMay 23, 2017 at 5:13 AM
+
+write a program to input a number and display table upto
+10th terms.
+
+Reply
+
+Replies
+
+
+
+
+
+
+UnknownJune 15, 2017 at 1:55 AM
+
+CLS
+INPUT "ENTER ANY NUMBER"; X
+FOR Y = 1 TO 10
+ TABLE = X * Y
+ PRINT X; "*"; Y; "="; TABLE
+NEXT Y
+END
+
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+Star Utsav Digital StudioMay 23, 2017 at 5:16 AM
+
+write a program to enter any three different numbers and display the greatest number
+Reply
+
+Replies
+
+
+
+
+
+
+UNKNOWNMay 27, 2017 at 5:41 AM
+
+This comment has been removed by the author.
+
+
+
+
+
+
+
+UNKNOWNMay 27, 2017 at 5:46 AM
+
+IF A IS GREATER THAN SYMBOL B AND A IS GREATER THAN SYMBOL C THEN
+PRINT A
+ELSEIF B IS GREATER THAN SYMBOL A AND B IS GREATER THAN SYMBOL C THEN
+PRINT B
+ELSE 
+PRINT C
+END IF 
+END
+
+
+
+
+
+
+
+UnknownJune 15, 2017 at 12:54 AM
+
+CLS
+INPUT "ENTER FIRST NUMBER"; A
+INPUT "ENTER SECOND NUMBER"; B
+INPUT "ENTER THIRD NUMBER"; C
+IF A > B AND A > C THEN
+PRINT A "IS GREATEST"
+ELSE IF B > A AND B> C THEN
+PRINT B "IS GREATEST"
+ELSE PRINT C "IS GREATEST"
+END IF
+END IF
+END
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+Sanjeev ThakurMay 24, 2017 at 1:51 AM
+
+Can u help me with series 2,9,28,126.....10terms.
+Reply
+
+
+
+
+
+
+UnknownMay 26, 2017 at 9:14 PM
+
+WAP that asks length of 3 sides of a triangle and check whether right angle triangle or not 
+Reply
+
+Replies
+
+
+
+
+
+
+UnknownJune 15, 2017 at 2:13 AM
+
+This comment has been removed by the author.
+
+
+
+
+
+
+
+UnknownJune 15, 2017 at 2:14 AM
+
+CLS
+INPUT "enter first length"; a
+INPUT "enter second length"; b
+INPUT "enter third length"; c
+IF a + b > c THEN
+ IF b + c > a THEN
+ IF a + c > b THEN
+ END IF
+ END IF
+ PRINT " these sides form triangle"
+ELSE PRINT "these sides do not form triangle"
+END IF
+END
+
+
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+UnicodistJune 1, 2017 at 1:54 AM
+
+I am a new teacher, and i have to teach QBASIC in class 8, thanks for this, i learned C programs in past, but now i can teach them very perfectly i think, =) 
+Reply
+
+
+
+
+
+
+UnknownJune 15, 2017 at 12:46 AM
+
+This comment has been removed by the author.
+Reply
+
+
+
+
+
+
+UnknownJune 15, 2017 at 12:47 AM
+
+Dear all: if any one could help me print any input numbers in the pattern x-y+z-w+... up to 10 terms in qbasic. finding sum is not required. only pattern printing is required.
+thanks.
+Reply
+
+
+
+
+
+
+UnknownJune 15, 2017 at 12:49 AM
+
+Dear all: if any one could help me print any input numbers in the pattern a+b-c+d+e-f ... up to 10 terms in qbasic and find its sum.
+thanks.
+Reply
+
+Replies
+
+
+
+
+
+
+GYANENDRA ADHIKARIJune 22, 2017 at 7:35 AM
+
+CLS
+INPUT"ENTER NUMBERS";a,B,C,D,E,F
+S=A+b+c+d+e+f
+PRINT S;"IS THE SUM"
+END
+
+
+
+
+
+Reply
+
+
+
+
+
+
+
+aabhas maniJune 15, 2017 at 4:27 AM
+
+This comment has been removed by the author.
+Reply
+
+
+
+
+
+
+Aminu balaJune 20, 2017 at 5:13 AM
+
+I'm very happy for this thanks a lot
+Reply
+
+
+
+
+
+
+GYANENDRA ADHIKARIJune 22, 2017 at 7:33 AM
+
+THESE ARE EASY.IF YOU NEED HELP I CAN HELP YOU . I AM GENIUS IN QBASIC.EVERY QUESTION ARE LIKE AN ANT TO ME. NEED HELP CAN ASK ME.I WILL GIVE ANSWERS TO EVERY QUESTION VISITORS PASTE....THANK YOU
+
+Reply
+
+
+
+
+
+
+
+
+Load more...
+
+
+
+ 
+
+   
+
+
+
+Links to this post
+
+Create a Link 
+
+Home 
+
+
+
+Subscribe to: Post Comments (Atom) 
+ 
+
+
+
+
+
+
+
+
+
+About Me
+
+My photo Aayush kc  dhobighat, lalitpur, NepalView my complete profile 
+  
+
+
+Followers
+
+
+
+
+ 
+
+
+  
+
+
+Blog Archive
+
+
+
+ ?     2010  (1)  ?     August  (1) Q-BASIC PROGRAMS
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+Awesome Inc. theme. Theme images by enot-poloskun. Powered by Blogger. 
+
+  
+
+
+
+ 
+
+
+    
